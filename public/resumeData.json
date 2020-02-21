@@ -1,0 +1,148 @@
+{
+  "main": {
+    "name":"Don Dean",
+    "occupation":"Front End Developer with Full Stack Training",
+    "description":"A passionately creative developer who strives to bring success in every endevor",
+    "image":"profilepic.jpg",
+    "bio":" ",
+    "contactmessage":"Please feel free to contact me with questions.",
+    "email": "Dondean3030@gmail.com",
+    "phone": "303-718-7760",
+    "address":{
+      "street":"3630 Ames St ",
+      "city":"Denver",
+      "state":"Colorado",
+      "zip": "80212"
+    },
+    "website": " ",
+    "resumedownload": " ",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/don-dean-bba53561/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/dondean21",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Dondean21",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Having owned my own business I have the abillity to manage people, teams and myself. I have experience dealing with customers and day to day business activities.  Im also very creative and passionate about getting things done right and in a timely manner. ",
+    "education":[
+      {
+        "school":"University of Denver",
+        "degree":"Coding Bootcamp",
+        "graduated":"March 2020",
+        "description":"Full coding immersion experience where I learned HTML, CSS, JavaScript, ReactJS and other JS tools such as JSNode, npm, Axios, Express, SQL, MongoDB, PWAs and more."
+      },
+      {
+        "school":"Red Rocks Community College",
+        "degree":"Business Management",
+        "graduated":"May 2008",
+        "description":"Skills in Business, Management and Marketing."
+      }
+    ],
+    "work":[
+      {
+        "company":"Dean Wholesaling LLC",
+        "title":"President",
+        "years":"July 2016 - Present",
+        "description":"Full scale liquidation company in the return resale space."
+      },
+      {
+        "company":"The Warehouse Denevr",
+        "title":"Chief Executive Officer",
+        "years":"August 2016 - August 2019",
+        "description":"A denver based warehouse fully stocked with home improvement items sold at half of the retail price."
+      }
+    ],
+    "skills":[
+      {
+        "name":"ReactJs",
+        "level":"75%"
+      },
+      {
+        "name":"Git",
+        "level":"80%"
+      },
+      {
+        "name":"Java Script",
+        "level":"75%"
+      },
+      {
+        "name":"JS node",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"75%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"70%"
+      },
+      {
+        "name":"MySQL",
+        "level":"60%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"70%"
+      },
+      {
+        "name":"Bulma",
+        "level":"70%"
+      },
+      {
+        "name":"Foundation",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Flick Finder",
+        "category":"A netflix movie finder based on immediate prefrences ",
+        "image":"Flick-Finder.png",
+        "url":"https://timmypotts.github.io/flickFinder/"
+      },
+      {
+        "title":"CraigZone",
+        "category":"A Craigslist scraper that alerts users when a desired item is posted",
+        "image":"CraigZone.png",
+        "url":"https://craigzone.herokuapp.com/"
+      },
+      {
+        "title":"Weather App",
+        "category":"A simple weather app I made to learn how 3rd party APIs work",
+        "image":"WeatherApp.png",
+        "url":"https://dondean21.github.io/weatherApp/"
+      },
+      {
+        "title":"WasteNot",
+        "category":"A React built Website that brings unused resturaunt food together with hungry people",
+        "image":"ReactApp.png",
+        "url":"http://www.timbakerdev.com"
+      }
+    ]
+  }
+  
+}
