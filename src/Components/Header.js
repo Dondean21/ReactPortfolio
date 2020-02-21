@@ -13,6 +13,8 @@ class Header extends Component {
       })
     }
 
+    
+
     return (
       <header id="home">
 
@@ -53,3 +55,5 @@ class Header extends Component {
 }
 
 export default Header;
+
+// this is the header
