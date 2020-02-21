@@ -37,6 +37,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
+            {/* <a href="https://fontmeme.com/clawface-video-game-font/"><img src="https://fontmeme.com/permalink/200221/f08d73a5163c7540feafc3dcefe0038e.png" alt="clawface-video-game-font" border="0"></img></a> */}
             <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
