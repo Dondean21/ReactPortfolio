@@ -38,6 +38,7 @@
         "className":"fa fa-skype"
       }
     ]
+
   },
   "resume":{
     "skillmessage":"Having owned my own business I have the abillity to manage people, teams and myself. I have experience dealing with customers and day to day business activities.  Im also very creative and passionate about getting things done right and in a timely manner. ",
@@ -140,8 +141,16 @@
         "title":"WasteNot",
         "category":"A React built Website that brings unused resturaunt food together with hungry people",
         "image":"ReactApp.png",
-        "url":"http://www.timbakerdev.com"
+        "url":"http://www.swimthesky.com"
       }
+    ]
+  },
+  "programLogos":{
+    "logos": [{
+      "title": "reactLogo",
+      "image": "public/images/programLogos/iconfinder_React.js_logo_1174949.png"
+    }
+
     ]
   }
   

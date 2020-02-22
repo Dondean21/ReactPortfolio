@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+// about
 class About extends Component {
   render() {
 
@@ -7,7 +7,7 @@ class About extends Component {
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
+      // var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
@@ -19,10 +19,20 @@ class About extends Component {
     return (
       <section id="about">
       <div className="row">
+         
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Don Dean Profile Pic" />
          </div>
          <div className="nine columns main-col">
+         <ul className="logos">
+              <li><img src={("images/programLogos/iconfinder_React.js_logo_1174949.png")} alt="reactLogo"/></li>
+              <li><img src={("images/programLogos/iconfinder_233_Node_Js_logo_4375017.png")} alt="nodeLogo"/></li>
+              <li><img src={("images/programLogos/iconfinder_html5_294678.png")} alt="HTMLLogo"/></li>
+              <li><img src={("images/programLogos/iconfinder_css3_294692.png")} alt="cssLogo"/></li>
+              <li><img src={("images/programLogos/jsLogo.png")} alt="jsLogo"/></li>
+              <li><img src={("images/programLogos/iconfinder_github_386637.png")} alt="gitLogo"/></li>
+              
+            </ul>
             <h2>About Me</h2>
 
             <p>{bio}</p>

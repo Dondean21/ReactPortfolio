@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 
+
 class Header extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
+      // var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
+     ;
     }
 
     
@@ -36,13 +38,22 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
-            {/* <a href="https://fontmeme.com/clawface-video-game-font/"><img src="https://fontmeme.com/permalink/200221/f08d73a5163c7540feafc3dcefe0038e.png" alt="clawface-video-game-font" border="0"></img></a> */}
+            {/* <h1 className="responsive-headline">{name}</h1> */}
+            <a href="https://fontmeme.com/fonts/great-victorian-font/"><img src="https://fontmeme.com/permalink/200222/a9b98e344582d83b190a856f9848fbba.png" alt="great-victorian-font" border="0"></img></a>
+            
             <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
                {networks}
             </ul>
+            <br />
+            {/* <ul className="logos">
+              <li><img src={("images/programLogos/iconfinder_React.js_logo_1174949.png")} alt="reactLogo"/></li>
+              <li><img src={("images/programLogos/iconfinder_233_Node_Js_logo_4375017.png")} alt="nodeLogo"/></li>
+              <li><img src={("images/programLogos/iconfinder_HTML_Logo_65687.png")} alt="HTMLLogo"/></li>
+              <li><img src={("images/programLogos/iconfinder_css-3_4961937.png")} alt="HTMLLogo"/></li>
+              
+            </ul> */}
          </div>
       </div>
 
