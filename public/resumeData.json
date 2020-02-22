@@ -121,7 +121,7 @@
     "projects": [
       {
         "title":"Flick Finder",
-        "category":"A netflix movie finder based on immediate prefrences ",
+        "category":"A netflix movie finder based on real time prefrences ",
         "image":"Flick-Finder.png",
         "url":"https://timmypotts.github.io/flickFinder/"
       },
